@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Practice</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+
+	<div>
+		<label for="First Name">First Name: </label>
+		<input type="text" name="First Name" placeholder="John" required>
+		<label for="Last Name">Last Name: </label>
+		<input type="text" name="Last Name" placeholder="Smith" required>
+	</div>
+
+	<div>
+		<label for="male">Male</label>
+		<input type="radio" name="male">
+		<label for="female">Female</label>
+		<input type="radio" name="female">
+		<label for="other">Other</label>
+		<input type="radio" name="other">
+	</div>
+
+	<div>
+		<label for="email">Email: </label>
+		<input type="email" name="email" placeholder="Your Email" required>
+		<label for="password">Password: </label>
+		<input type="password" name="password" placeholder="Your Password" maxlength="10" minlength="5" required>
+	</div>
+
+	<div>
+		<label>Birthday Day: 
+
+		<label for="day"></label>
+		<select name="day">
+			<option value="day">Day</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+
+		<label for="month"></label>
+		<select name="month">
+			<option value="month">Month</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>	
+		</select>
+
+		<label for="year"></label>
+		<select name="year">
+			<option value="year">Year</option>
+			<option value="2016">2016</option>
+			<option value="2017">2017</option>
+			<option value="2018">2018</option>	
+		</select>
+		</label>
+	</div>
+
+	<div>
+		<label for="check">I agree to the terms and conditions</label>
+		<input type="radio" name="check">
+	</div>
+
+	<div>
+		<button>Submit</button>
+	</div>
+</form>
+</body>
+</html>
+
